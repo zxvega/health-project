@@ -1,0 +1,55 @@
+INSERT INTO test.dbo.Paciente (DNI,apellidosNombre,fechaNacimiento,numSeguridadSocial,otrosDatos,sexo) VALUES
+	 (N'12345678A',N'García López Juan','1980-01-01',N'123456789012',N'Ninguno',N'M'),
+	 (N'23456789B',N'Martínez Pérez María','1990-02-15',N'123456789013',N'Ninguno',N'F'),
+	 (N'34567890C',N'Fernández Ruiz Carlos','1985-03-22',N'123456789014',N'Ninguno',N'M'),
+	 (N'45678901D',N'López Gómez Ana','1975-04-10',N'123456789015',N'Ninguno',N'F'),
+	 (N'56789012E',N'Hernández Sánchez Luis','1992-05-30',N'123456789016',N'Ninguno',N'M'),
+	 (N'67890123F',N'Pérez Martínez Laura','1988-06-25',N'123456789017',N'Ninguno',N'F'),
+	 (N'78901234G',N'Gómez Jiménez José','1982-07-14',N'123456789018',N'Ninguno',N'M'),
+	 (N'89012345H',N'Sánchez Díaz Marta','1979-08-03',N'123456789019',N'Ninguno',N'F'),
+	 (N'90123456I',N'Martín Castro Miguel','1981-09-21',N'123456789020',N'Ninguno',N'M'),
+	 (N'01234567J',N'Jiménez Morales Patricia','1995-10-12',N'123456789021',N'Ninguno',N'F');
+INSERT INTO test.dbo.Paciente (DNI,apellidosNombre,fechaNacimiento,numSeguridadSocial,otrosDatos,sexo) VALUES
+	 (N'11223344K',N'Morales Torres Sergio','1984-11-05',N'123456789022',N'Ninguno',N'M'),
+	 (N'22334455L',N'Castro Ortega Verónica','1993-12-30',N'123456789023',N'Ninguno',N'F'),
+	 (N'33445566M',N'Reyes Martínez Fernando','1987-01-18',N'123456789024',N'Ninguno',N'M'),
+	 (N'44556677N',N'Ortiz Ruiz Gabriela','1989-02-09',N'123456789025',N'Ninguno',N'F'),
+	 (N'55667788O',N'Ramírez Pérez Alejandro','1994-03-27',N'123456789026',N'Ninguno',N'M'),
+	 (N'66778899P',N'Alvarez Mendoza Paula','1991-04-11',N'123456789027',N'Ninguno',N'F'),
+	 (N'77889900Q',N'Cruz Hernández Rubén','1983-05-22',N'123456789028',N'Ninguno',N'M'),
+	 (N'88990011R',N'Mendoza Salazar Leticia','1996-06-16',N'123456789029',N'Ninguno',N'F'),
+	 (N'99001122S',N'García Villanueva Samuel','1986-07-07',N'123456789030',N'Ninguno',N'M'),
+	 (N'10012233T',N'Ramírez Fuentes Carolina','1990-08-23',N'123456789031',N'Ninguno',N'F');
+INSERT INTO test.dbo.Paciente (DNI,apellidosNombre,fechaNacimiento,numSeguridadSocial,otrosDatos,sexo) VALUES
+	 (N'11123344U',N'Soto Ponce Javier','1981-09-19',N'123456789032',N'Ninguno',N'M'),
+	 (N'12234455V',N'Cordero García Celeste','1995-10-14',N'123456789033',N'Ninguno',N'F'),
+	 (N'13345566W',N'Salas Ríos Esteban','1982-11-03',N'123456789034',N'Ninguno',N'M'),
+	 (N'14456677X',N'Fuentes Cortés Luisa','1994-12-20',N'123456789035',N'Ninguno',N'F'),
+	 (N'15567788Y',N'Rivas Castillo Pedro','1983-01-30',N'123456789036',N'Ninguno',N'M'),
+	 (N'16678899Z',N'Cano Palacios Fernanda','1996-02-16',N'123456789037',N'Ninguno',N'F'),
+	 (N'17789900A',N'Núñez Mendoza Ramón','1989-03-05',N'123456789038',N'Ninguno',N'M'),
+	 (N'18890011B',N'Paredes Acosta Mónica','1992-04-12',N'123456789039',N'Ninguno',N'F'),
+	 (N'19901122C',N'Torres Vera Javier','1984-05-22',N'123456789040',N'Ninguno',N'M'),
+	 (N'20012233D',N'Maldonado Salgado Karla','1993-06-10',N'123456789041',N'Ninguno',N'F');
+INSERT INTO test.dbo.Paciente (DNI,apellidosNombre,fechaNacimiento,numSeguridadSocial,otrosDatos,sexo) VALUES
+	 (N'21123344E',N'Aguilar Galindo Martín','1987-07-25',N'123456789042',N'Ninguno',N'M'),
+	 (N'22234455F',N'Cisneros Beltrán Adriana','1991-08-03',N'123456789043',N'Ninguno',N'F'),
+	 (N'23345566G',N'Benítez Romero Daniel','1985-09-14',N'123456789044',N'Ninguno',N'M'),
+	 (N'24456677H',N'Cervantes Huerta Carla','1998-10-27',N'123456789045',N'Ninguno',N'F'),
+	 (N'25567788I',N'Rojas Ponce Hugo','1990-11-12',N'123456789046',N'Ninguno',N'M'),
+	 (N'26678899J',N'Peña Delgado Sofía','1994-12-05',N'123456789047',N'Ninguno',N'F'),
+	 (N'27789900K',N'Salazar Lima Tomás','1982-01-15',N'123456789048',N'Ninguno',N'M'),
+	 (N'28890011L',N'Cáceres Zamora Verónica','1993-02-22',N'123456789049',N'Ninguno',N'F'),
+	 (N'29901122M',N'Mora Arce Julián','1986-03-14',N'123456789050',N'Ninguno',N'M'),
+	 (N'31012234N',N'Araya Castro Julián','1980-01-10',N'123456789051',N'Ninguno',N'M');
+INSERT INTO test.dbo.Paciente (DNI,apellidosNombre,fechaNacimiento,numSeguridadSocial,otrosDatos,sexo) VALUES
+	 (N'32123345O',N'López Castro Clara','1985-04-15',N'123456789052',N'Ninguno',N'F'),
+	 (N'33234456P',N'Fernández Valdés Andrés','1992-05-20',N'123456789053',N'Ninguno',N'M'),
+	 (N'34345567Q',N'González Ortega Beatriz','1986-08-30',N'123456789054',N'Ninguno',N'F'),
+	 (N'35456678R',N'Morales Aguirre Miguel','1990-02-18',N'123456789055',N'Ninguno',N'M'),
+	 (N'36567789S',N'Rivera Fernández Paula','1988-11-25',N'123456789056',N'Ninguno',N'F'),
+	 (N'37678890T',N'Cruz Salazar Esteban','1983-12-15',N'123456789057',N'Ninguno',N'M'),
+	 (N'38789901U',N'Palacios León Teresa','1991-07-04',N'123456789058',N'Ninguno',N'F'),
+	 (N'39890012V',N'Rojas López Adrián','1995-09-12',N'123456789059',N'Ninguno',N'M'),
+	 (N'40901123W',N'Torres Ruiz Gabriela','1987-06-14',N'123456789060',N'Ninguno',N'F'),
+	 (N'41012234X',N'Salinas Jiménez Ricardo','1994-03-11',N'123456789061',N'Ninguno',N'M');
